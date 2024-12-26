@@ -1,0 +1,49 @@
+/* Basic styling for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the counter section */
+.counter {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Animation for the counter */
+.odometer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color */
+    letter-spacing: 1px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Styling for the title */
+.title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Hover effect for counter */
+.counter:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+

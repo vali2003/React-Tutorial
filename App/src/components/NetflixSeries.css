@@ -1,0 +1,40 @@
+.container{
+  gap: 20px;
+}
+.card{
+  box-shadow: rgba(0,0,0,0.05) 0px 6px 24px 0px
+  rgba(0,0,0,0.08) 0px 0px 0px 1px;
+  gap: 30px;
+}
+img{
+  width: 100%;
+}
+
+.card-heading{
+  margin-bottom: 3.2rem;
+}
+
+.card-content{
+  padding: 1.2em 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.super_hit{
+  background-color:rgb(47, 221, 90);
+}
+
+.average{
+  background-color: rgb(221, 175, 47);
+}
+.rating{
+  padding:  0.3rem 1.8rem;
+  color:black;
+  margin-left:  1.2rem;
+border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius:  100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}

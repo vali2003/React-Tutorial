@@ -1,0 +1,73 @@
+/* General styling for the Challenge container */
+/* div {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} */
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Styling for the input and label */
+label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Grid layout for the buttons */
+.grid-three-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003d80;
+}

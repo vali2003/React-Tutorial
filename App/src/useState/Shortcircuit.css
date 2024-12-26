@@ -1,0 +1,67 @@
+section {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 100px;
+    margin: auto;
+    padding: 100px;  
+}
+
+.sub-dev {
+    box-shadow: 0 0 0 0.2rem rgb(221, 178, 178); 
+    padding: 20px;
+    width: 90rem; 
+    margin-left: 210px;
+}
+
+h1 {
+    padding: 10px 10px;
+}
+
+p {
+    padding: 10px 10px;
+}
+
+.grid-three-cols {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 20px; 
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: lightblue; 
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;  /* Reduce padding on smaller screens */
+    }
+
+    .sub-dev {
+        width: 100%;  /* Make the .sub-dev container full-width */
+        margin-left: 0;  /* Remove the left margin */
+    }
+
+    .grid-three-cols {
+        grid-template-columns: repeat(2, 1fr);  /* Change grid to 2 columns on small screens */
+    }
+
+    button {
+        padding: 8px 16px;  /* Reduce button padding */
+        font-size: 14px;  /* Reduce button font size */
+    }
+
+    h1, p {
+        font-size: 14px;  /* Reduce font size for headings and paragraphs */
+    }
+}

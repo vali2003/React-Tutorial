@@ -1,0 +1,46 @@
+.card {
+    list-style: none;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 300px; /* Optional: add max width for better card sizing */
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .rating {
+    font-weight: bold;
+  }
+  
+  .super_hit {
+    color: green; /* Color for ratings greater than 8.5 */
+  }
+  
+  .average {
+    color: orange; /* Color for ratings less than or equal to 8.5 */
+  }
+  
+  button {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+  }
+  
+  button:hover {
+    background-color: #ff9900;
+  }
+  
+  img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 8px;
+  }
+  
